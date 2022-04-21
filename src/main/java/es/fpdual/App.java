@@ -4,7 +4,18 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+/**
+ * Main class
+ * 
+ * @author Deg42
+ */
 public class App {
+
+    /**
+     * Main method
+     * 
+     * @param args arguments of app
+     */
     public static void main(String[] args) {
         App app = new App();
         Properties prop = app.loadPropertiesFile("config.properties");
