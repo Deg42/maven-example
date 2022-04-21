@@ -7,14 +7,19 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-{
+public class AppTest {
     /**
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void EigthIsEight() {
+        int number = 8;
+
+        assertTrue(number == 8);
+    }
+
+    @Test
+    public void trueIsReallyTrue() {
+        assertTrue(true);
     }
 }
