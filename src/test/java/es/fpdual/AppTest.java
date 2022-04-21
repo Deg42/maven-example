@@ -12,7 +12,7 @@ public class AppTest {
      * Rigorous Test :-)
      */
     @Test
-    public void EigthIsEight() {
+    public void eigthIsEight() {
         int number = 8;
 
         assertTrue(number == 8);
